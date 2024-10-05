@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+}
+
+.gothic-text {
+    font-family: 'UnifrakturMaguntia', serif;
+}
+
+.logo {
+    width: 150px;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-bg {
+    background-image: url('/assets/hero.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.overlay h1 {
+    font-size: 80px;
+}
+
+.overlay p {
+    font-size: 24px;
+}
+
+.btn-danger {
+    font-size: 24px;
+    padding: 12px 30px;
+    border: 2px solid #fff;
+}
+
+.btn-danger:hover {
+    background-color: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+#about, #contact {
+    padding: 80px 20px;
+}
+
+#services {
+    padding: 80px 20px;
+}
+
+footer {
+    background-color: #111;
+}
