@@ -22,7 +22,7 @@ body {
 }
 
 .hero-bg {
-    background-image: url('/assets/hero.PNG');
+    background-image: url('https://github.com/kbliss86/harn-kustoms/blob/main/assets/hero.PNG?raw=true');
     background-size: cover;
     background-position: center;
     height: 100%;
